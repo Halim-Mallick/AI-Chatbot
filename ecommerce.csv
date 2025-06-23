@@ -1,0 +1,13 @@
+pattern,intent,response
+Hi,greeting,Hello! How can I assist you with your shopping today?
+Hello,greeting,Hi there! Looking for something specific?
+What is the price of iPhone 13?,product_price,The iPhone 13 is currently priced at $799.
+iPhone 13 price,product_price,The latest price of iPhone 13 is $799.
+Tell me about the latest smartphones,product_info,"We have iPhone 14, Samsung Galaxy S23, and OnePlus 11 in stock."
+Do you have laptops?,product_availability,"Yes! We have a range of laptops including Dell, HP, and MacBooks."
+Is the MacBook Air available?,product_availability,"Yes, the MacBook Air is available. Would you like to know the price?"
+What are the delivery charges?,delivery_info,Delivery charges vary by location. Free delivery on orders above $50.
+When will my order arrive?,order_tracking,You can track your order using the tracking ID sent to your email.
+What is the return policy?,return_policy,We offer a 7-day return policy for all products.
+Do you have any discounts?,offers,Yes! We have special discounts on electronics and fashion. Check our website for details.
+What payment methods do you accept?,payment_info,"We accept Credit/Debit Cards, PayPal, and Cash on Delivery."
