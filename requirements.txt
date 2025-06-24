@@ -3,7 +3,7 @@ flask-cors
 pandas
 numpy
 nltk
-tensorflow==2.15.0
+tensorflow==2.12.0
 scikit-learn
-keras
+keras==2.12.0
 gunicorn
