@@ -58,6 +58,13 @@ def get_response(intents_dict):
         return random.choice(responses)
     return "Sorry, I couldn't understand that."
 
+from flask import Flask, render_template
+app = Flask(__name__)
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+
 @app.route('/chat', methods=['POST'])
 def chat():
     data_json = request.get_json()
