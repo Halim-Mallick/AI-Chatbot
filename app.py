@@ -64,6 +64,10 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+import os
+import nltk
+nltk.data.path.append(os.path.join(os.path.dirname(__file__), "nltk_data"))
+
 
 @app.route('/chat', methods=['POST'])
 def chat():
